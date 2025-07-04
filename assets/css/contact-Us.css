@@ -1,0 +1,260 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+:root {
+    --green: #4DBA2F;
+    --blue: #0D2B4C;
+    --black: #000000;
+    --white: #ffffff;
+    --font: 'Satoshi', sans-serif;
+    --bgcolor: rgba(77, 186, 47, 0.08);
+}
+
+#navbar {
+    background-color: var(--white);
+}
+
+#navbar-text {
+    font-family: var(--font);
+    font-size: 18px;
+    line-height: 20.3px;
+    text-align: center;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+}
+
+.contact-btn1{
+    /* gap: 10px; */
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+nav ul li a{
+    text-align: center;
+    color: #000000;
+    transition-delay: 0.4s;
+    transition-duration: 0.5s;
+}
+
+nav ul li :hover{
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+@media (max-width:576px) {
+    .navbar-nav {
+        padding-right: 25rem;
+        column-gap: 0%;
+    }
+
+    .contact-btn{
+        display: none;
+    }
+
+    .aboutus-btn {
+        width: 50%;
+    }
+
+    .footer-img {
+        height: 100%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.contact-btn {
+    width: Hug (130px)px;
+    height: Hug (30px)px;
+    padding: 6px 15px 6px 15px;
+    gap: 10px;
+    border-radius: 40px 40px 40px 40px;
+    opacity: 0px;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+/* contact form start  */
+
+#contact {
+    background-color: #4DBA2F33;
+}
+
+#contact-text {
+    width: 48%;
+}
+
+#contact h1 {
+    font-family: var(--font);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--blue);
+}
+
+#contact p {
+    padding: 0%;
+    font-family: var(--font);
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+}
+
+#contact-form {
+    width: 70%;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+#contact-form label{
+font-family: var(--font);
+font-size: 16px;
+font-weight: 400;
+line-height: 24.3px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--blue);
+}
+
+@media (max-width:576px) {
+    #contact-form {
+        width: 90%;
+    }
+
+
+    #contact-text {
+        width: 90%;
+    }
+}
+
+#contact-form input {
+    background-color: #F1F1F4;
+}
+
+#contact-form select {
+    background-color: #F1F1F4;
+}
+
+#contact-form textarea {
+    background-color: #F1F1F4;
+}
+
+.contact-from-btn {
+    font-family: var(--font);
+    width: 250px;
+    height: 50px;
+    top: 842px;
+    left: 766px;
+    gap: 0px;
+    border-radius: 40px 40px 40px 40px;
+    opacity: 0px;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+#address p{
+font-family: var(--font);
+font-size: 18px;
+font-weight: 400;
+line-height: 24.3px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--black);
+}
+/* footer section start  */
+
+#footer {
+    background-color: var(--bgcolor);
+}
+
+#footer ul li {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+}
+
+#footer h5 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.3px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+}
+
+#footer p {
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+}
+
+#footer-title p {
+    font-family: var(--font);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20.3px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#footer ul li a {
+    color: black;
+    text-decoration: none;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#footer ul li a:hover {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+.address a {
+    color: black;
+    text-decoration: none;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.address a:hover {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+.email a{
+    text-decoration: none;
+}
+
+.email a p{
+    color: #000000;
+}
+
+.email a p:hover{
+    text-decoration: underline; 
+    color: var(--blue);
+}
